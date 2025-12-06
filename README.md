@@ -35,4 +35,11 @@ The model generalises well, demonstrating strong predictive power.
 - Google Colab
 - Matplotlib / Seaborn
 
+##  Project Conclusion
+
+This project demonstrates how data-driven Marketing Mix Modelling (MMM) can quantify the true impact of advertising channels on business performance. By incorporating **Adstock transformation** to capture carry-over advertising effects, **Hill saturation** to model diminishing returns, and **Ridge Regression** to address multicollinearity, the model achieved strong predictive power (Train R²: 0.93, Test R²: 0.70).
+
+The results revealed that **Radio and TV** are high-return channels, with ROIs of **62.9x** and **38.1x**, respectively, while **Newspaper** and **SMS** campaigns produce negative returns, resulting in a loss of value. A linear programming optimisation model reallocated the same historical budget toward profitable channels, resulting in a substantial increase in projected incremental sales without increasing total spend.
+
+This end-to-end analytics solution demonstrates how advanced statistical modelling and optimisation techniques can be used not only to measure marketing effectiveness but also to drive actionable business decisions. The methodology is scalable and can be deployed for annual planning, media mix experimentation, and performance forecasting in real-world marketing environments.
 
